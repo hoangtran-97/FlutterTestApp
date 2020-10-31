@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 
 import "src/App_Header.dart";
 
@@ -12,7 +11,6 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // FlutterStatusbarcolor.setStatusBarColor(Colors.red);
     return MaterialApp(
         theme: ThemeData(primaryColor: Colors.black),
         home: Scaffold(
